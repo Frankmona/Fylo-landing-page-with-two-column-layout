@@ -11,7 +11,7 @@ body{
 .column1{
     width: 100%;
     min-height: 20rem;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 5%;
 }
 
@@ -96,7 +96,7 @@ input{
 .column2_background_image{
     background-image: url(./images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-  
-    
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
 }
