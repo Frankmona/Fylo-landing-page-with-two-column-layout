@@ -1,0 +1,86 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:  white;
+}
+
+.column1{
+    width: 100%;
+    min-height: 20rem;
+    /* background-color: aqua; */
+    padding: 5%;
+}
+
+.logo_img{
+    width: 10%;
+}
+
+.p_features{
+    font-family:'Raleway', sans-serif;
+    font-size: small;
+    color: black;
+}
+
+.features_row_display{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.top_heading_row_display{
+    display: flex;
+    gap: 50rem;
+   
+}
+
+.heading_textbox{
+    width: 23rem;
+    height: 12rem;
+    /* background-color: brown; */
+    font-family:'Raleway', sans-serif;
+    margin-top: 8%;
+
+}
+
+.p_flyo_heading_textbox{
+    font-size: small;
+    padding-top: 1em;
+    line-height: 1.5;
+}
+
+.input_getstarted{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    min-width: 8rem;
+    height: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.input_getstarted:hover{
+    background-color:hsl(224, 50%, 74%);
+
+}
+
+input{
+   
+    height: 1.5rem;
+}
+
+.input_display{
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 5%;
+}
+
+.img_illustration{
+    width: 45%;
+}
+
+.headingbox_display{
+    display: flex;
+    gap: 8rem;
+}
