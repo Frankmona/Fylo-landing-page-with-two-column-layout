@@ -61,12 +61,11 @@ body{
 }
 
 .input_getstarted:hover{
-    background-color:hsl(224, 50%, 74%);
+    background-color:hsl(225, 83%, 65%);
 
 }
 
 input{
-   
     height: 1.5rem;
 }
 
@@ -98,5 +97,140 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 50px;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.column2_textbox{
+    width: 25rem;
+    min-height: 12rem;
+    /* background-color: brown; */
+    margin-top: 5%;
+
+}
+
+.p_column2_textbox{
+    font-size: small;
+    padding-top: 1em;
+    line-height: 1.5;
+}
+
+.p2_column2_textbox{
+    margin-top: 5px;
+}
+
+.a_flyo{
+    font-size: 15px;
+    color: hsl(170, 45%, 43%);
+  line-height: 3;
+}
+
+.a_flyo:hover{
+     color: hsl(170, 75%, 61%);
+}
+.img_arrow{
+    margin-top: 7%;
+}
+
+.section{
+    width: 19rem;
+    min-height: 10rem;
+    background-color: white;
+    /* margin: auto; */
+    margin-top: 1%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px 3px  hsl(228, 13%, 92%);
+    padding: 22px;
+}
+
+.p_flyo{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.img_avatar{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.p_kyle_founder{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+   
+}
+
+.p_founder{
+    font-size: 10px;
+    
+}
+
+.p_kyle{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.founder_row_display{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3%;
+}
+
+.column2_row_display{
+    display: flex;
+    gap: 8rem;
+}
+
+.column3{
+    width: 100%;
+    min-height: 7rem;
+    background-color: hsl(238, 22%, 44%);
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.column3_textbox{
+    color: white;
+    width: 25rem;
+    min-height: 8rem;
+    /* background-color: brown; */
+    /* margin-top: 2%; */
+}
+
+.p_column3_textbox{
+    font-size: small;
+    line-height: 1.5;
+    padding-top: 13px;
+    color: rgb(241, 238, 238);
+}
+
+.input_display_footer{
+    line-height: 3rem;
+}
+
+.input_getstarted_forfree{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    min-width: 9rem;
+    height: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.input_getstarted_forfree:hover{
+    background-color:hsl(225, 83%, 65%);
+
+}
+
+.input2{
+    min-width: 20rem;
+    height: 1.5rem;
+}
+
+
+
+.column3_display_row{
+    display: flex;
+    gap: 15rem;
 }
