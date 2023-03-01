@@ -324,7 +324,7 @@ a:hover{
 
     .top_heading_row_display{
         display: flex;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .headingbox_display{
