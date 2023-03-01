@@ -309,7 +309,7 @@ a:hover{
   }
 
 
-  @media screen  and (max-width:414px)  {
+  @media screen  and (max-width:414px) {
 
     .column1{
         width: 100%;
@@ -324,7 +324,7 @@ a:hover{
 
     .top_heading_row_display{
         display: flex;
-        gap: 9rem;
+        gap: 4rem;
     }
 
     .headingbox_display{
